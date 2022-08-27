@@ -2,7 +2,7 @@
 public class Empleado {
     private String nombre;
     private String correo;
-    private String empresa;
+    private Empresa empresa;
     private String rol;
 
     public String getNombre() {
@@ -25,7 +25,7 @@ public class Empleado {
         return empresa;
     }
 
-    public void setEmpresa(String empresa) {
+    public void setEmpresa(Empresa empresa) {
         this.empresa = empresa;
     }
 
