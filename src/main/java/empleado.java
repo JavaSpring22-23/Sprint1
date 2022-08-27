@@ -1,5 +1,5 @@
 
-public class empleado {
+public class Empleado {
     private String nombre;
     private String correo;
     private String empresa;
