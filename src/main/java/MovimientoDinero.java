@@ -1,7 +1,7 @@
 public class MovimientoDinero {
     private int montoMovimiento; // positivos y negativos
     private String conceptoMovimiento; // Entrada - Salida
-    private String encargado;
+    private Empleado encargado;
 
     public MovimientoDinero(int montoMovimiento, String conceptoMovimiento, String encargado) {
         this.montoMovimiento = montoMovimiento;
@@ -29,7 +29,7 @@ public class MovimientoDinero {
         return encargado;
     }
 
-    public void setEncargado(String encargado) {
+    public void setEncargado(Empleado encargado) {
         this.encargado = encargado;
     }
 
